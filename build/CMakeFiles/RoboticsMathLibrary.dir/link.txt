@@ -1,2 +1,0 @@
-/usr/bin/ar qc libRoboticsMathLibrary.a CMakeFiles/RoboticsMathLibrary.dir/src/rob_math.cpp.o
-/usr/bin/ranlib libRoboticsMathLibrary.a
