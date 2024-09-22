@@ -6,7 +6,7 @@ This C++ function library will implement some commonly used computational functi
 ### 文件结构
 
 ```
-/CoordinateTransform/
+/robotics_math_library/
     |-- CMakeLists.txt         # CMake 配置文件
     |-- /include/
     |    |-- rob_math.h  # 头文件
