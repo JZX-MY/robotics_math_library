@@ -67,7 +67,7 @@ int main() {
     cout << "P2 在新坐标系（机器人坐标系）下的坐标: (" << P2_r_3d.x << ", " << P2_r_3d.y << ", " << P2_r_3d.z << ")" << endl;
 
     Point3D P1_w2_3d = RoboticsMath::getBeforeRotation3D(P1_r_3d, translation_3d, theta_3d, axis);
-    Point3D P2_w2_3d = RoboticsMath::getBeforeRotation3D(P2_w_3d, translation_3d, theta_3d, axis);
+    Point3D P2_w2_3d = RoboticsMath::getBeforeRotation3D(P2_r_3d, translation_3d, theta_3d, axis);
 
     // 输出求转换前 P1 和 P2 坐标
     cout << "P1 在原坐标系（世界坐标系）下的坐标: (" << P1_w2_3d.x << ", " << P1_w2_3d.y << ", " << P1_w2_3d.z << ")" << endl;
