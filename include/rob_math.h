@@ -1,3 +1,18 @@
+/***********************************************************
+ *
+ * @file: rob_math.h
+ * @breif: This C++ function library will implement some commonly used computational functions in robotics.
+ * @author: Jing Zongxin
+ * @update: 2024-9-22
+ * @version: 1.0
+ *
+ * Copyright (c) 2024，Jing Zongxin
+ * All rights reserved.
+ * --------------------------------------------------------
+ *
+ **********************************************************/
+
+
 #ifndef ROB_MATH_H
 #define ROB_MATH_H
 
